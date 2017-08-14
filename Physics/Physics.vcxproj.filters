@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{a55e279e-4f1c-4f8a-911d-f3bef549e4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Reading">
+      <UniqueIdentifier>{31d7ffc8-5dae-4c33-ba91-7ed795eff1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hardware Controllers">
+      <UniqueIdentifier>{074adfb6-aeef-41c4-baee-3edc64416ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{a3e550e1-7778-4220-b288-938ac192fa04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{30fa24f9-ae4b-4de4-9ebe-d3b0e5e02c25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\SceneBase.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\SceneManager.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HardwareControllers\KeyboardController.cpp">
+      <Filter>Hardware Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileReading\FileReader.cpp">
+      <Filter>File Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileReading\MusicPlayer.cpp">
+      <Filter>File Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileReading\LoadOBJ.cpp">
+      <Filter>File Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileReading\LoadTGA.cpp">
+      <Filter>File Reading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DetectMemoryLeak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\SceneBase.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\SceneManager.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HardwareControllers\KeyboardController.h">
+      <Filter>Hardware Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileReading\FileReader.h">
+      <Filter>File Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileReading\MusicPlayer.h">
+      <Filter>File Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileReading\LoadOBJ.h">
+      <Filter>File Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileReading\LoadTGA.h">
+      <Filter>File Reading</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
